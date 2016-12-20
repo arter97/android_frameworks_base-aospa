@@ -131,6 +131,11 @@ public class LightStatusBarController implements BatteryController.BatteryStateC
     public void onBatteryLevelChanged(int level, boolean pluggedIn, boolean charging) {
 
     }
+    @Override
+    public void onBatteryStyleChanged(int style, int percentMode) {
+
+    }
+
 
     @Override
     public void onPowerSaveChanged(boolean isPowerSave) {
